@@ -5,6 +5,10 @@ using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.OO;
+using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.Excecoes;
+using CursoCSharp.Api; 
+using CursoCSharp.LINQ; 
 
 
 namespace CursoCSharp {
@@ -78,7 +82,36 @@ namespace CursoCSharp {
                 {"Polimorfismo - OO", Polimorfismo.Executar},
                 {"Abstract - OO", Abstract.Executar},
                 {"Interface - OO", Interface.Executar},
+                {"Sealed - OO", Sealed.Executar},
+
+                // Metodos e Funcoes
+                {"Exemplo Lambda - Metodos & Funções", ExemploLambda.Executar},
+                {"Lambdas Como Delegates - Metodos & Funções", LambdasDelegate.Executar},
+                {"Usando Delegates - Metodos & Funções", UsandoDelegates.Executar},
+                {"Delegates Como Função Anonima - Metodos & Funções", DelegateFunAnonima.Executar},
+                {"Delegates Como Parametros - Metodos & Funções", DelegatesComoParametros.Executar},
+                {"Metodos De Extensao - Metodos & Funções", MetodosDeExtensao.Executar},
+
+                //Exceções
+                {"Primeira Execeções - Execeções", PrimeiraExcecao.Executar},
+                {"Excecoes Personalizadas - Execeções", ExcecoesPersonalizadas.Executar},
                 
+                // Api
+                {"Primeiro Arquivo - Usando API", PrimeiroArquivo.Executar},
+                {"Lendo Arquivo - Usando API", LendoArquivos.Executar},
+                {"Exemplo FileInfo - Usando API", ExemploFileInfo.Executar},
+                {"Diretorios - Usando API", Diretorios.Executar},
+                {"Exemplo DirectoryInfo - Usando API", ExemploDirectoryInfo.Executar},
+                {"Exemplo Path - Usando API", ExemploPath.Executar},
+                {"Exemplo DateTime - Usando API", ExemploDateTime.Executar},
+                {"Exemplo TimeSpan - Usando API", ExemploTimeSpan.Executar},
+                
+                
+                //LINQ #1
+                {"LINQ #01 - Tópicos Avançados", LINQ1.Executar},
+                {"LINQ #02 - Tópicos Avançados", LINQ2.Executar},
+
+
             });
 
             central.SelecionarEExecutar();
